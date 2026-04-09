@@ -2,7 +2,7 @@ import os
 from openai import OpenAI
 from dotenv import load_dotenv
 
-from llm.base import BaseLLMProvider, LLMRequest, LLMResponse
+from base import BaseLLMProvider, LLMRequest, LLMResponse
 
 load_dotenv()
 

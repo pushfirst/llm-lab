@@ -1,5 +1,5 @@
 import ollama
-from llm.base import BaseLLMProvider, LLMRequest, LLMResponse
+from base import BaseLLMProvider, LLMRequest, LLMResponse
 
 class OllamaProvider(BaseLLMProvider):
     def __init__(self):

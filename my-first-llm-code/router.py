@@ -1,6 +1,6 @@
-from llm.base import LLMRequest
-from llm.providers.openai import OpenAIProvider
-from llm.providers.ollama import OllamaProvider
+from base import LLMRequest
+from providers.openai import OpenAIProvider
+from providers.ollama import OllamaProvider
 
 
 class LLMRouter:
